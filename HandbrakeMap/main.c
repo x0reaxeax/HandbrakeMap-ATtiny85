@@ -223,9 +223,6 @@ static LRESULT CALLBACK WndProc(
     IN WPARAM wParam,
     IN LPARAM lParam
 ) {
-    UNREFERENCED_PARAMETER(hWnd);
-    UNREFERENCED_PARAMETER(wParam);
-
     switch (uMsg) {
         case WM_INPUT:
             ProcessRawInput(lParam);
